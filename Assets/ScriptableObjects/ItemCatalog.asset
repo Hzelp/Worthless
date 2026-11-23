@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3750538aeaf0e0418a828a98203009c, type: 3}
+  m_Name: ItemCatalog
+  m_EditorClassIdentifier: Assembly-CSharp:Worthless:ItemCatalogAsset
+  Data:
+    Definitions:
+    - Id: M01
+      DisplayName: "\u4E0A\u5F26\u94A5\u5319"
+      Category: "\u673A\u68B0"
+      Glyph: K
+      PaletteIndex: 0
+    - Id: M02
+      DisplayName: "\u65E7\u6000\u8868"
+      Category: "\u673A\u68B0"
+      Glyph: W
+      PaletteIndex: 0
+    - Id: M03
+      DisplayName: "\u6298\u53E0\u7F57\u76D8"
+      Category: "\u673A\u68B0"
+      Glyph: C
+      PaletteIndex: 0
+    - Id: H01
+      DisplayName: "\u7EB8\u706F"
+      Category: "\u624B\u4F5C"
+      Glyph: L
+      PaletteIndex: 1
+    - Id: H02
+      DisplayName: "\u6F06\u6728\u9762\u5177"
+      Category: "\u624B\u4F5C"
+      Glyph: M
+      PaletteIndex: 1
+    - Id: H03
+      DisplayName: "\u5F69\u7EBF\u6302\u6BEF"
+      Category: "\u624B\u4F5C"
+      Glyph: T
+      PaletteIndex: 1
+    - Id: C01
+      DisplayName: "\u6591\u7EB9\u77FF\u77F3"
+      Category: "\u6676\u77FF"
+      Glyph: O
+      PaletteIndex: 2
+    - Id: C02
+      DisplayName: "\u7425\u73C0\u5760"
+      Category: "\u6676\u77FF"
+      Glyph: A
+      PaletteIndex: 2
+    - Id: C03
+      DisplayName: "\u7D2B\u6676\u7C07"
+      Category: "\u6676\u77FF"
+      Glyph: X
+      PaletteIndex: 2

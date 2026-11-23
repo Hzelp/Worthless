@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d28dfc9e22007b48ab25e4c03c0ba10, type: 3}
+  m_Name: TradeConfig
+  m_EditorClassIdentifier: 
+  NpcFriendlyText: "\u5BA2\u6C14\u534F\u5546"
+  NpcNeutralText: "\u76F4\u63A5\u8BE2\u95EE"
+  NpcHostileText: "\u65BD\u538B"
+  NpcFriendlyProbability: 0.65
+  NpcAcceptProbability: 0.5
+  NpcHostileProbability: 0.35

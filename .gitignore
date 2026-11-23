@@ -1,0 +1,67 @@
+# Unity-generated data and build output
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emory[Cc]aptures/
+/[Rr]ecordings/
+/[Ee]xported[Oo]bj/
+/[Aa]ssets/[Aa]sset[Ss]tore[Tt]ools/
+/Exports/
+/.publish/
+
+# Local version-control and IDE metadata
+/.plastic/
+/.vs/
+/.vscode/
+/.idea/
+/.gradle/
+/.consulo/
+/*.csproj
+/*.unityproj
+/*.sln
+/*.slnx
+/*.apk
+/*.aab
+/*.unitypackage
+*.suo
+*.user
+*.userprefs
+*.opendb
+*.VC.db
+
+# Local credentials, signing keys and crash output
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.pfx
+*.p12
+*.private
+*.private.meta
+*.private.[0-9]*
+sysinfo.txt
+crashlytics-build.properties
+.DS_Store
+Thumbs.db
+Desktop.ini
+~UnityDirMonSyncFile~*
+
+# Existing push-triggered PlasticSCM sample, outside this Git baseline
+/.workflows/build.yaml
+
+# Optional local assets omitted from the public source
+/Assets/Plugins/Sirenix/
+/Assets/Plugins/Sirenix.meta
+/Assets/Plugins/Demigiant/
+/Assets/Plugins/Demigiant.meta
+/Assets/vFolders/
+/Assets/vFolders.meta
+/Assets/Art/Sprites/Controllers and Keyboard/
+/Assets/Art/Sprites/Controllers and Keyboard.meta
+/Assets/Resources/DOTweenSettings.asset
+/Assets/Resources/DOTweenSettings.asset.meta

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6602993388854690536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037977957342207681}
+  - component: {fileID: 2855342396875626582}
+  - component: {fileID: 3363375980103641312}
+  - component: {fileID: 655360276755993940}
+  m_Layer: 0
+  m_Name: MatchNet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1037977957342207681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602993388854690536}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2855342396875626582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602993388854690536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &3363375980103641312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602993388854690536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd36340fda6a4f94f9a8d60e354a0a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  runMultiplier: 1.6
+  snapshotInterval: 0.1
+--- !u!114 &655360276755993940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602993388854690536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388c242d641947f4096bd329e4d6f3b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomCenters:
+  - {x: -14, y: 10}
+  - {x: 14, y: 10}
+  - {x: 0, y: -10}
+  roomHalfExtents:
+  - {x: 4, y: 3}
+  - {x: 4, y: 3}
+  - {x: 4, y: 3}
+  roundConfig: {fileID: 11400000, guid: 9d537ff915bce294896181a78be68ce3, type: 2}
+  itemCatalog: {fileID: 11400000, guid: b8f459d556ab4ba4d9cc2dfc82c6c44c, type: 2}
+  economy: {fileID: 11400000, guid: 1151b1d0684289e498715940c0501c2d, type: 2}
+  tradeConfig: {fileID: 11400000, guid: 0c82d1f3f65190b4c97588000ee3031c, type: 2}
+  broadcastConfig: {fileID: 11400000, guid: 9d82f3061a69fdc4f8e93d7bbb187280, type: 2}
+  chatNearbyRadius: 4

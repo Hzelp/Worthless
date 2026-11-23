@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421ef4349588d5543a3affdbefd7c1de, type: 3}
+  m_Name: EconomyConfig
+  m_EditorClassIdentifier: Assembly-CSharp:Worthless:EconomyConfigAsset
+  Data:
+    MinValue: -100000
+    MaxValue: 100000
+    InitialMin: 30
+    InitialMax: 90
+    SwingVarianceBasisPoints: 2500
+    Events:
+    - Id: E01
+      DisplayName: "\u673A\u68B0\u70ED\u9500"
+      Categories:
+      - "\u673A\u68B0"
+      - "\u624B\u4F5C"
+      - "\u6676\u77FF"
+      BasisPoints: 68100000d8f5fffff4010000
+    - Id: E02
+      DisplayName: "\u624B\u4F5C\u574A\u5E02\u96C6\u53CD\u8F6C"
+      Categories:
+      - "\u673A\u68B0"
+      - "\u624B\u4F5C"
+      - "\u6676\u77FF"
+      BasisPoints: 98efffffc012000000000000
+    - Id: E03
+      DisplayName: "\u6676\u77FF\u8D70\u5F3A"
+      Categories:
+      - "\u673A\u68B0"
+      - "\u624B\u4F5C"
+      - "\u6676\u77FF"
+      BasisPoints: f8f8ffff48f4ffff7c150000
+    - Id: E04
+      DisplayName: "\u4F9B\u5E94\u94FE\u9707\u8361"
+      Categories:
+      - "\u673A\u68B0"
+      - "\u624B\u4F5C"
+      - "\u6676\u77FF"
+      BasisPoints: 60090000b004000028f1ffff

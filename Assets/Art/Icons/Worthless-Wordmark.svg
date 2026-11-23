@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 150" width="640" height="150">
+  <title>Worthless</title>
+  <defs>
+    <linearGradient id="ivory" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#fff4d9"/><stop offset=".52" stop-color="#f8e9c6"/><stop offset="1" stop-color="#dfc79b"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2=".77" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#fff0c3"/><stop offset=".38" stop-color="#dfbc7e"/><stop offset=".64" stop-color="#f7da9d"/><stop offset="1" stop-color="#bc905a"/>
+    </linearGradient>
+    <path id="s" d="M45 44 L43 66 H41 C40 53 33 47 24 47 C15 47 10 52 10 59 C10 66 15 70 29 76 C42 82 47 88 47 98 C47 112 36 120 22 120 C12 120 7 116 4 116 L0 120 L1 96 H3 C5 109 12 117 23 117 C33 117 39 112 39 103 C39 96 32 92 20 87 C7 81 2 75 2 65 C2 52 12 44 24 44 C32 44 37 47 40 48 Z"/>
+  </defs>
+  <g transform="translate(20 0) skewX(-8)">
+    <!-- The divided nib of the W and the long R terminal are drawn for this lockup. -->
+    <path fill="url(#brass)" d="M0 20 Q13 15 40 19 L39 21 Q29 21 30 28 L48 100 L65 55 L58 29 Q56 21 47 21 L47 19 H82 V21 Q72 21 74 29 L93 99 L114 35 Q119 21 104 21 L105 19 H138 V21 Q126 21 121 34 L89 126 H85 L67 64 L43 129 H39 L13 32 Q11 22 0 22 Z"/>
+    <path fill="#66523c" d="M17 24 Q21 26 23 34 L44 112 L42 117 L20 34 Q19 29 17 24 Z M63 25 Q66 25 68 32 L89 109 L87.5 114 L65 33 Z"/>
+    <path fill="#e3c18a" d="M-4 17 H1 V15 H6 V13 H13 V11 H26 V12 H34 V14 H43 V12 H51 V14 H47 V16 H40 V18 H31 V16 H22 V15 H9 V17 Z"/>
+    <path fill="#e7c487" d="M48 46 H52 V50 H56 V54 H52 V58 H48 V54 H44 V50 H48 Z"/>
+    <g fill="url(#ivory)" fill-rule="evenodd">
+      <!-- O -->
+      <path d="M154 43 C173 43 186 56 186 79 C186 103 173 120 153 120 C133 120 121 106 121 84 C121 60 134 43 154 43 Z M154 46 C140 46 134 63 134 83 C134 104 140 117 153 117 C167 117 173 99 173 79 C173 59 167 46 154 46 Z"/>
+      <!-- R, including the undercut swash below the crossbar of T -->
+      <path d="M192 45 H219 C239 45 251 50 251 64 C251 77 241 83 229 85 C239 87 242 97 247 108 C253 122 262 130 274 130 H280 V128 H287 V126 H292 V129 H288 V131 H283 V133 H276 V135 H264 C253 135 246 129 241 123 C234 114 231 102 227 94 C224 88 221 86 215 86 H212 V110 Q212 116 220 116 V118 H190 V116 Q199 116 199 110 V53 Q199 47 192 47 Z M212 48 V83 H217 C231 83 238 76 238 65 C238 53 230 48 217 48 Z"/>
+      <!-- The crossbar and the stem of T form one miniature balance. -->
+      <path d="M287 31 L294 39 V109 Q294 116 304 116 V118 H271 V116 Q281 116 281 109 V39 Z"/>
+      <!-- H -->
+      <path d="M325 45 H354 V47 Q346 47 346 53 V78 H373 V53 Q373 47 365 47 V45 H394 V47 Q386 47 386 53 V110 Q386 116 394 116 V118 H365 V116 Q373 116 373 110 V82 H346 V110 Q346 116 354 116 V118 H325 V116 Q333 116 333 110 V53 Q333 47 325 47 Z"/>
+      <!-- L -->
+      <path d="M400 45 H431 V47 Q421 47 421 54 V115 H434 Q446 115 452 99 H454 L449 118 H400 V116 Q408 116 408 110 V53 Q408 47 400 47 Z"/>
+      <!-- E -->
+      <path d="M460 45 H508 L509 62 H507 Q503 48 492 48 H481 V78 H490 Q499 78 500 68 H502 V91 H500 Q498 81 490 81 H481 V115 H494 Q506 115 512 100 H514 L509 118 H460 V116 Q468 116 468 110 V53 Q468 47 460 47 Z"/>
+      <use xlink:href="#s" x="521"/><use xlink:href="#s" x="574"/>
+    </g>
+  </g>
+  <g>
+    <path fill="#efdab0" d="M273 36 L329 29 V33 L308 37 L302 42 L298 39 L273 41 Z"/>
+    <path fill="none" d="M275 39 L267 56 H283 Z M327 32 L319 49 H335 Z" stroke="#d6bc8b" stroke-width="2" stroke-linejoin="round"/>
+    <path fill="#f2dfb7" d="M265 55 H285 L282 59 L277 62 H273 L268 59 Z M317 48 H337 L334 52 L329 55 H325 L320 52 Z"/>
+    <path fill="#ab8057" d="M298 36 L302 32 L306 36 L302 40 Z"/>
+  </g>
+</svg>
