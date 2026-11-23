@@ -1,5 +1,9 @@
 # Worthless
 
+**游趣无限2026/VGG2026作品**
+
+[下载 Worthless 宣传片（MP4）](https://github.com/Hzelp/Worthless/releases/download/pv-2026/WorthlessPV.mp4)
+
 <img src="Assets/Art/AuctionFrontispiece.png" alt="深绿丝绒上的金色旧怀表与琥珀" width="620">
 
 **每段交易只能成交一次。你现在就换，还是等大屏再说一句？**
