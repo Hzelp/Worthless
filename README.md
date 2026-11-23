@@ -1,6 +1,6 @@
 # Worthless
 
-**游趣无限2026/VGG2026作品**
+**游趣无限2026/VGG2026作品，SOLO**
 
 [下载 Worthless 宣传片（MP4）](https://github.com/Hzelp/Worthless/releases/download/pv-2026/WorthlessPV.mp4)
 
